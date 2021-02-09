@@ -16,9 +16,11 @@ int main()
 	
 	scanf("%d", &length);
 	
-	printf("Please enter the digit:\n");
+	printf("Please enter the digit\n");
 	
-	scanf("%d", &digit);	
+	scanf("%d", &digit);
+	
+	printf("The reverse digit is ");	
 
 	while (index <= length)
 	{
@@ -30,6 +32,8 @@ int main()
 
 		index++;
 	}
+	
+	printf("\n");
 	
 	return 0;
 }
